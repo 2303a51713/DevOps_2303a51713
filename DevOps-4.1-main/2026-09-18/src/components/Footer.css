@@ -1,0 +1,7 @@
+.site-footer { padding: 36px max(24px, calc((100% - 1160px) / 2)); color: #f5f1e8; background: #21332d; }
+.footer-inner { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
+.footer-brand { margin: 0; font-family: 'Playfair Display', Georgia, serif; font-size: 1.45rem; font-weight: 700; }
+.footer-brand span { color: #f0bd68; }
+.footer-copy, .copyright { margin: 7px 0 0; color: #bbc4b9; font-size: .82rem; }
+.copyright { text-align: right; }
+@media (max-width: 620px) { .footer-inner { align-items: flex-start; flex-direction: column; } .copyright { text-align: left; } }

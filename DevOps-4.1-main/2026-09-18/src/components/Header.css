@@ -1,0 +1,11 @@
+.site-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 24px max(24px, calc((100% - 1160px) / 2)); border-bottom: 1px solid #ded8ca; background: #f5f1e8; }
+.brand { display: flex; align-items: center; gap: 12px; color: #21332d; text-decoration: none; }
+.brand-mark { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; color: #f5f1e8; background: #b35d3d; font-family: 'Playfair Display', Georgia, serif; font-size: .92rem; font-weight: 700; letter-spacing: -.1em; }
+.brand-mark span { color: #f4c46b; }
+.brand-name { font-family: 'Playfair Display', Georgia, serif; font-size: 1.25rem; font-weight: 700; }
+.brand-name em { color: #b35d3d; font-style: normal; }
+.site-nav { display: flex; align-items: center; gap: 28px; }
+.site-nav a { color: #65736b; font-size: .9rem; text-decoration: none; }
+.site-nav a:hover { color: #b35d3d; }
+.cart-link span { display: inline-grid; place-items: center; min-width: 22px; height: 22px; margin-left: 5px; border-radius: 50%; color: #f5f1e8; background: #21332d; font-size: .7rem; }
+@media (max-width: 580px) { .site-header { align-items: flex-start; flex-direction: column; padding: 20px 16px; } .site-nav { gap: 16px; flex-wrap: wrap; } }

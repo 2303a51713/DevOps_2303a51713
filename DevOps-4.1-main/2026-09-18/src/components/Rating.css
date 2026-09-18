@@ -1,0 +1,3 @@
+.rating { display: flex; align-items: center; gap: 7px; }
+.rating-stars { color: #d68c3a; letter-spacing: 1px; font-size: .8rem; }
+.rating-number { color: #65736b; font-size: .78rem; }

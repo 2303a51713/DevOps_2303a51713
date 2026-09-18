@@ -1,0 +1,6 @@
+.search-form { min-width: min(100%, 290px); }
+.search-form label { display: block; margin-bottom: 8px; color: #65736b; font-size: .75rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.search-input-wrap { display: flex; align-items: center; gap: 8px; border-bottom: 2px solid #21332d; }
+.search-input-wrap span { color: #b35d3d; font-size: 1.55rem; line-height: 1; }
+.search-input-wrap input { width: 100%; padding: 10px 0; border: 0; outline: 0; color: #21332d; background: transparent; }
+.search-input-wrap input::placeholder { color: #9a9e94; }

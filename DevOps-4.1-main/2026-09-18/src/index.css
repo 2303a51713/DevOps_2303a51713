@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #21332d;
+  background: #f5f1e8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+.app-shell { min-height: 100vh; background: #f5f1e8; }
+.page-content { width: min(1160px, calc(100% - 48px)); margin: 0 auto; padding: 68px 0 88px; }
+.section-kicker { margin: 0 0 8px; color: #b35d3d; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.page-title { max-width: 720px; margin: 0; color: #21332d; font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2.5rem, 6vw, 5.25rem); line-height: 1.03; }
+.page-intro { max-width: 590px; margin: 18px 0 0; color: #65736b; font-size: 1.08rem; line-height: 1.7; }
+.catalog-toolbar { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin: 58px 0 28px; }
+.catalog-toolbar h2 { margin: 0; font-family: 'Playfair Display', Georgia, serif; font-size: 2rem; }
+.result-message { margin: 0 0 24px; color: #b35d3d; font-weight: 700; }
+.book-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 22px; }
+.empty-results { padding: 52px 24px; border: 1px dashed #c9c3b5; color: #65736b; text-align: center; }
+.empty-results h3 { margin: 0 0 8px; font-family: 'Playfair Display', Georgia, serif; font-size: 1.6rem; color: #21332d; }
+@media (max-width: 700px) {
+  .page-content { width: min(100% - 32px, 1160px); padding: 46px 0 64px; }
+  .catalog-toolbar { align-items: stretch; flex-direction: column; margin-top: 42px; }
+  .page-intro { font-size: 1rem; }
+}

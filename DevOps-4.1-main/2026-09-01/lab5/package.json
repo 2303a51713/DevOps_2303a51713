@@ -1,0 +1,18 @@
+{
+  "name": "student-information-api",
+  "version": "1.0.0",
+  "description": "Express and MongoDB REST API for student information management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "students"],
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "mongoose": "^8.12.1"
+  }
+}
